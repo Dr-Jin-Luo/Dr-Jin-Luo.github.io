@@ -1,6 +1,5 @@
 #### 代表性文章：
-- <strong>Jin Luo</strong>, Bingrui Song, Yuxin Lin, Zhiyuan Fu, Boyi Fu, Weikai Xu, Linxiao Shen, Yuan Wang, <strong>Qianqian Huang*, Ru Huang*</strong>, “Experimental Demonstration of Resonant Adiabatic Writing and Computing in Ferroelectric Capacitive Memory Array for Energy-Efficient Edge AI,” in <strong>2024 IEEE International Electron Devices Meeting (IEDM)<
-/strong>, Dec. 2024. (第一作者)
+- <strong>Jin Luo</strong>, Bingrui Song, Yuxin Lin, Zhiyuan Fu, Boyi Fu, Weikai Xu, Linxiao Shen, Yuan Wang, <strong>Qianqian Huang*, Ru Huang*</strong>, “Experimental Demonstration of Resonant Adiabatic Writing and Computing in Ferroelectric Capacitive Memory Array for Energy-Efficient Edge AI,” in <strong>2024 IEEE International Electron Devices Meeting (IEDM)</strong>, Dec. 2024. (第一作者)
 
 - <strong>Jin Luo</strong>, Hanyong Shao, Boyi Fu, Zhiyuan Fu, Weikai Xu, Kaifeng Wang, Mengxuan Yang, Yiqing Li, Xiao Lv, <strong>Qianqian Huang*, Ru Huang*</strong>,“Novel Ferroelectric Tunnel FinFET based Encryption-embedded Computing-in-Memory 
 for Secure AI with High Area-and Energy-Efficiency,” in <strong>2022 IEEE IEDM</strong>, Dec. 2022. (第一作者)
@@ -14,8 +13,7 @@ Huang*, Ru Huang*</strong>, “Energy-and Area-efficient Fe-FinFET-based Time-do
 Liu, Si Wu, <strong>Qianqian Huang*, Ru Huang*</strong>, “Capacitor-less Stochastic Leaky-FeFET Neuron of Both Excitatory and 
 Inhibitory Connections for SNN with Reduced Hardware Cost,” in <strong>2019 IEEE IEDM</strong>, Dec. 2019. (第一作者)
 
-- <strong>Jin Luo#</strong>, Weikai Xu#, Boyi Fu, Zheru Yu, Mengxuan Yang, Yiqing Li, <strong>Qianqian Huang*, Ru Huang*</strong>, “A Novel Ambipolar Ferroelectric Tunnel FinFET based Content Addressable Memory with Ultra-low Hardware Cost and High
- Energy Efficiency for Machine Learning,” in <strong>2022 IEEE Symposium on VLSI Technology and Circuits (VLSI)</strong>, Jun. 2022. (#共同一作)
+- <strong>Jin Luo#</strong>, Weikai Xu#, Boyi Fu, Zheru Yu, Mengxuan Yang, Yiqing Li, <strong>Qianqian Huang*, Ru Huang*</strong>, “A Novel Ambipolar Ferroelectric Tunnel FinFET based Content Addressable Memory with Ultra-low Hardware Cost and High Energy Efficiency for Machine Learning,” in <strong>2022 IEEE Symposium on VLSI Technology and Circuits (VLSI)</strong>, Jun. 2022. (#共同一作)
 
 - <strong>Jin Luo</strong>, Boyi Fu, Yide Du, Xinming Wei, Chang Su, Mengxuan Yang,  <strong>Qianqian Huang*,Ru Huang*</strong>
 , “Energy-efficient Ferroelectric-FET-based Agent with Memory Trace for Enhanced Reinforcement Learning,” <strong>IEEE Electron
@@ -26,13 +24,10 @@ Inhibitory Connections for SNN with Reduced Hardware Cost,” in <strong>2019 IE
  Hardware Cost,” <strong>IEEE Electron Device Letters</strong>, vol. 43, no. 2, pp. 308-311, Dec. 2021. (第一作者)
 
 - <strong>Jin Luo</strong>, Cheng Chen, <strong>Qianqian Huang*, Ru Huang*</strong>, “A Biomimetic Tunnel FET-Based Spiking 
-Neuron for Energy-Efficient Neuromorphic Computing With Reduced Hardware Cost,” <strong>IEEE Transactions on Electron Devices<
-/strong>, vol. 69, no. 2, pp. 308-311, Feb. 2022. (第一作者)
+Neuron for Energy-Efficient Neuromorphic Computing With Reduced Hardware Cost,” <strong>IEEE Transactions on Electron Devices</strong>, vol. 69, no. 2, pp. 308-311, Feb. 2022. (第一作者)
 
 - <strong>Jin Luo</strong>, Tianyi Liu, Zhiyuan Fu, Xinming Wei, <strong>Qianqian Huang*, Ru Huang*</strong>, “Ferroelectric 
-FET based Signed Synapses of Excitatory and Inhibitory Connection for Stochastic Spiking Neural Network based Optimizer,” in <
-strong>2023 7th IEEE Electron Devices Technology & Manufacturing Conference (EDTM)</strong>, Mar. 2023. <strong>(Best Student 
-Paper Award)</strong> (第一作者)
+FET based Signed Synapses of Excitatory and Inhibitory Connection for Stochastic Spiking Neural Network based Optimizer,” in <strong>2023 7th IEEE Electron Devices Technology & Manufacturing Conference (EDTM)</strong>, Mar. 2023. <strong>(Best Student Paper Award)</strong> (第一作者)
 
 - <strong>Jin Luo*</strong>, Zhiyuan Fu, <strong>Qianqian Huang*, Ru Huang*</strong>, “Novel Ferroelectric Tunnel FET-based 
 Computing-in-memory with In-situ XOR Cipher-Encrypted AND-Type Multiply-Accumulate for Secure Edge AI,” in <strong>2025 9th 
