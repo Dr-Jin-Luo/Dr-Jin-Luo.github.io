@@ -14,8 +14,7 @@ Huang*, Ru Huang*</strong>, “Energy-and Area-efficient Fe-FinFET-based Time-do
 Liu, Si Wu, <strong>Qianqian Huang*, Ru Huang*</strong>, “Capacitor-less Stochastic Leaky-FeFET Neuron of Both Excitatory and 
 Inhibitory Connections for SNN with Reduced Hardware Cost,” in <strong>2019 IEEE IEDM</strong>, Dec. 2019. (第一作者)
 
-- <strong>Jin Luo#</strong>, Weikai Xu#, Boyi Fu, Zheru Yu, Mengxuan Yang, Yiqing Li, <strong>Qianqian Huang*, Ru Huang*<
-/strong>, “A Novel Ambipolar Ferroelectric Tunnel FinFET based Content Addressable Memory with Ultra-low Hardware Cost and High
+- <strong>Jin Luo#</strong>, Weikai Xu#, Boyi Fu, Zheru Yu, Mengxuan Yang, Yiqing Li, <strong>Qianqian Huang*, Ru Huang*</strong>, “A Novel Ambipolar Ferroelectric Tunnel FinFET based Content Addressable Memory with Ultra-low Hardware Cost and High
  Energy Efficiency for Machine Learning,” in <strong>2022 IEEE Symposium on VLSI Technology and Circuits (VLSI)</strong>, Jun. 2022. (#共同一作)
 
 - <strong>Jin Luo</strong>, Boyi Fu, Yide Du, Xinming Wei, Chang Su, Mengxuan Yang,  <strong>Qianqian Huang*,Ru Huang*</strong>
@@ -43,8 +42,7 @@ IEEE Electron Devices Technology & Manufacturing Conference (EDTM)</strong>, Mar
 Gate Ferroelectric Transistor-based Weight Device with High Linearity and Symmetry for On-Chip Learning,” in <strong>2025 9th 
 IEEE Electron Devices Technology & Manufacturing Conference (EDTM)</strong>, Mar. 2025. (共一,通讯)
 
-Runze Han, <strong>Jin Luo*</strong>, Shengjie Cao, <strong>Qianqian Huang*, Ru Huang*</strong>, "A Novel Ambipolar Ferroelectric Tunnel Finfet Based Computing-In-Memory For Quantized Neural Networks With High Area- And Energy-Efficiency," in 2025 Conference of Science 
-& Technology for Integrated Circuits (CSTIC), Mar. 2025. (通讯)
+- Runze Han, <strong>Jin Luo*</strong>, Shengjie Cao, <strong>Qianqian Huang*, Ru Huang*</strong>, "A Novel Ambipolar Ferroelectric Tunnel Finfet Based Computing-In-Memory For Quantized Neural Networks With High Area- And Energy-Efficiency," in 2025 Conference of Science & Technology for Integrated Circuits (CSTIC), Mar. 2025. (通讯)
 
 - <strong>Jin Luo</strong>, Zhu Lv,  <strong>Qianqian Huang*</strong>, Cheng Chen, <strong>Ru Huang*</strong>, “A Physical Current Model for Self-Depleted T-gate Schottky Barrier Tunneling FET with Low SS and High ION/IOFF”, in 2018 14th IEEE International Conference on Solid-State and Integrated Circuit Technology (ICSICT), Oct, 2018. (第一作者)
 
