@@ -19,9 +19,11 @@
 
 - <strong>Jin Luo*</strong>, Zhiyuan Fu, <strong>Qianqian Huang*, Ru Huang*</strong>, “Novel Ferroelectric Tunnel FET-based Computing-in-memory with In-situ XOR Cipher-Encrypted AND-Type Multiply-Accumulate for Secure Edge AI,” in <strong>2025 9th IEEE Electron Devices Technology & Manufacturing Conference (EDTM)</strong>, Mar. 2025. (一作,通讯)
 
-- Yuxin Lin#, <strong>Jin Luo#*</strong>, Zerui Chen, Zhiyuan Fu, <strong>Qianqian Huang*, Ru Huang*</strong>, “Novel Hybrid Gate Ferroelectric Transistor-based Weight Device with High Linearity and Symmetry for On-Chip Learning,” in <strong>2025 9th IEEE Electron Devices Technology & Manufacturing Conference (EDTM)</strong>, Mar. 2025. <strong>(Best Student & Engineer Award)</strong> (共一,通讯)
+- Yuxin Lin#, <strong>Jin Luo#*</strong>, Zerui Chen, Zhiyuan Fu, <strong>Qianqian Huang*, Ru Huang*</strong>, “Novel Hybrid Gate Ferroelectric Transistor-based Weight Device with High Linearity and Symmetry for On-Chip Learning,” in <strong>2025 9th IEEE Electron Devices Technology & Manufacturing Conference (EDTM)</strong>, Mar. 2025. (共一,通讯)
 
 - Runze Han, <strong>Jin Luo*</strong>, Shengjie Cao, <strong>Qianqian Huang*, Ru Huang*</strong>, "A Novel Ambipolar Ferroelectric Tunnel Finfet Based Computing-In-Memory For Quantized Neural Networks With High Area- And Energy-Efficiency," in 2025 Conference of Science & Technology for Integrated Circuits (CSTIC), Mar. 2025. <strong>(Best Student Paper Award)</strong> (通讯)
+
+- Yuxin Lin, Zerui Chen, <strong>Jin Luo*</strong>, <strong>Qianqian Huang*, Ru Huang*</strong>, “Design of Ferroelectric FET-Based Symmetric Computing-in-Memory Array with Simultaneous Weight Gradient Calculation and Weight Update for On-Chip Learning,” in in 2025 Conference of Science & Technology for Integrated Circuits (CSTIC), Mar. 2025. <strong>(Best Student & Engineer Award)</strong> (通讯)
 
 - <strong>Jin Luo</strong>, Zhu Lv, <strong>Qianqian Huang*</strong>, Cheng Chen, <strong>Ru Huang*</strong>, “A Physical Current Model for Self-Depleted T-gate Schottky Barrier Tunneling FET with Low SS and High ION/IOFF”, in 2018 14th IEEE International Conference on Solid-State and Integrated Circuit Technology (ICSICT), Oct, 2018. (第一作者)
 
