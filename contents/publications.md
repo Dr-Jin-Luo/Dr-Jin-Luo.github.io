@@ -19,9 +19,9 @@
 
 - <strong>Jin Luo*</strong>, Zhiyuan Fu, <strong>Qianqian Huang*, Ru Huang*</strong>, “Novel Ferroelectric Tunnel FET-based Computing-in-memory with In-situ XOR Cipher-Encrypted AND-Type Multiply-Accumulate for Secure Edge AI,” in <strong>2025 9th IEEE Electron Devices Technology & Manufacturing Conference (EDTM)</strong>, Mar. 2025. (一作,通讯)
 
-- Yuxin Lin#, <strong>Jin Luo#*</strong>, Zerui Chen, Zhiyuan Fu, <strong>Qianqian Huang*, Ru Huang*</strong>, “Novel Hybrid Gate Ferroelectric Transistor-based Weight Device with High Linearity and Symmetry for On-Chip Learning,” in <strong>2025 9th IEEE Electron Devices Technology & Manufacturing Conference (EDTM)</strong>, Mar. 2025. (共一,通讯)
+- Yuxin Lin#, <strong>Jin Luo#*</strong>, Zerui Chen, Zhiyuan Fu, <strong>Qianqian Huang*, Ru Huang*</strong>, “Novel Hybrid Gate Ferroelectric Transistor-based Weight Device with High Linearity and Symmetry for On-Chip Learning,” in <strong>2025 9th IEEE Electron Devices Technology & Manufacturing Conference (EDTM)</strong>, Mar. 2025. <strong>(Best Student & Engineer Award)</strong> (共一,通讯)
 
-- Runze Han, <strong>Jin Luo*</strong>, Shengjie Cao, <strong>Qianqian Huang*, Ru Huang*</strong>, "A Novel Ambipolar Ferroelectric Tunnel Finfet Based Computing-In-Memory For Quantized Neural Networks With High Area- And Energy-Efficiency," in 2025 Conference of Science & Technology for Integrated Circuits (CSTIC), Mar. 2025. (通讯)
+- Runze Han, <strong>Jin Luo*</strong>, Shengjie Cao, <strong>Qianqian Huang*, Ru Huang*</strong>, "A Novel Ambipolar Ferroelectric Tunnel Finfet Based Computing-In-Memory For Quantized Neural Networks With High Area- And Energy-Efficiency," in 2025 Conference of Science & Technology for Integrated Circuits (CSTIC), Mar. 2025. <strong>(Best Student Paper Award)</strong> (通讯)
 
 - <strong>Jin Luo</strong>, Zhu Lv, <strong>Qianqian Huang*</strong>, Cheng Chen, <strong>Ru Huang*</strong>, “A Physical Current Model for Self-Depleted T-gate Schottky Barrier Tunneling FET with Low SS and High ION/IOFF”, in 2018 14th IEEE International Conference on Solid-State and Integrated Circuit Technology (ICSICT), Oct, 2018. (第一作者)
 
@@ -29,7 +29,7 @@
 - 黄如，<strong>罗金</strong>，刘天翊，黄芊芊，“基于铁电晶体管的自适应随机脉冲神经元的硬件实现方法”（已授权）
 - 黄如，<strong>罗金</strong>，刘天翊，黄芊芊，“基于铁电晶体管的具备兴奋和抑制功能的突触硬件实现方法”（已授权）
 - 黄如，<strong>罗金</strong>，黄芊芊，“一种实现兼具突触和神经元功能的神经形态器件的方法”（已授权）
-- 黄如，<strong>罗金</strong>，徐伟凯，黄芊芊；“一种基于铁电晶体管的延时调制方法”
-- 黄如，<strong>罗金</strong>，徐伟凯，黄芊芊；“一种抑制铁电晶体管FeFET写涨落的方法”
-- 黄如，<strong>罗金</strong>，黄芊芊，“一种面向存内计算系统的加密方法”
+- 黄如，<strong>罗金</strong>，徐伟凯，黄芊芊；“一种基于铁电晶体管的延时调制方法”（已授权）
+- 黄如，<strong>罗金</strong>，徐伟凯，黄芊芊；“一种抑制铁电晶体管FeFET写涨落的方法”（已授权）
+- 黄如，<strong>罗金</strong>，黄芊芊，“一种面向存内计算系统的加密方法”（已授权）
 - Ru Huang, <strong>Jin Luo</strong>, Tianyi Liu, Qianqian Huang, “Method for implementing adaptive stochastic spiking neuron based on ferroelectric field effect transistor” US 11,868,868 B2. (已授权)
