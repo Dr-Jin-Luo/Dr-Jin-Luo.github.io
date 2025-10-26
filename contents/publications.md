@@ -1,4 +1,6 @@
 #### 代表性文章：
+- <strong>Jin Luo#</strong>, Shaodi Xu#, Peiyu Chen, Yuxin Lin, Haoyu Wang, Bingrui Song, Weikai Xu, Boyi Fu, Yuan Wang, Le Ye, <strong>Qianqian Huang*, Ru Huang*</strong>, “A Novel Ferroelectric Charge-Steering Memcapacitor Array based Δ-CIM with Enhanced Parallelism and Self-Adaptive Sparsity for Edge LLMs,” in <strong>2025 IEEE International Electron Devices Meeting (IEDM)</strong>, Dec. 2025. (#共同一作)
+
 - <strong>Jin Luo</strong>, Bingrui Song, Yuxin Lin, Zhiyuan Fu, Boyi Fu, Weikai Xu, Linxiao Shen, Yuan Wang, <strong>Qianqian Huang*, Ru Huang*</strong>, “Experimental Demonstration of Resonant Adiabatic Writing and Computing in Ferroelectric Capacitive Memory Array for Energy-Efficient Edge AI,” in <strong>2024 IEEE International Electron Devices Meeting (IEDM)</strong>, Dec. 2024. (第一作者)
 
 - <strong>Jin Luo</strong>, Hanyong Shao, Boyi Fu, Zhiyuan Fu, Weikai Xu, Kaifeng Wang, Mengxuan Yang, Yiqing Li, Xiao Lv, <strong>Qianqian Huang*, Ru Huang*</strong>, “Novel Ferroelectric Tunnel FinFET based Encryption-embedded Computing-in-Memory for Secure AI with High Area-and Energy-Efficiency,” in <strong>2022 IEEE IEDM</strong>, Dec. 2022. (第一作者)
@@ -8,6 +10,8 @@
 - <strong>Jin Luo</strong>, Liutao Yu, Tianyi Liu, Mengxuan Yang, Zhiyuan Fu, Zhongxin Liang, Liang Chen, Cheng Chen, Shuhan Liu, Si Wu, <strong>Qianqian Huang*, Ru Huang*</strong>, “Capacitor-less Stochastic Leaky-FeFET Neuron of Both Excitatory and Inhibitory Connections for SNN with Reduced Hardware Cost,” in <strong>2019 IEEE IEDM</strong>, Dec. 2019. (第一作者)
 
 - <strong>Jin Luo#</strong>, Weikai Xu#, Boyi Fu, Zheru Yu, Mengxuan Yang, Yiqing Li, <strong>Qianqian Huang*, Ru Huang*</strong>, “A Novel Ambipolar Ferroelectric Tunnel FinFET based Content Addressable Memory with Ultra-low Hardware Cost and High Energy Efficiency for Machine Learning,” in <strong>2022 IEEE Symposium on VLSI Technology and Circuits (VLSI)</strong>, Jun. 2022. (#共同一作)
+
+- <strong>Jin Luo</strong>, Keqin Liu, Boyi Fu, Zheru Yu, <strong>Qianqian Huang*, Ru Huang*</strong>, “A Novel Ferroelectric Tunnel FET based Synapse with Complementary Hebbian Plasticity Enhancing Learning of Spiking Neural Networks,” <strong>IEEE Electron Device Letters</strong>, Oct. 2025. (第一作者)
 
 - <strong>Jin Luo</strong>, Boyi Fu, Yide Du, Xinming Wei, Chang Su, Mengxuan Yang,  <strong>Qianqian Huang*,Ru Huang*</strong>, “Energy-efficient Ferroelectric-FET-based Agent with Memory Trace for Enhanced Reinforcement Learning,” <strong>IEEE Electron Device Letters</strong>, vol. 45, no. 2, pp. 264-267, Feb. 2024. <strong>(Editors’ Pick)</strong> (第一作者)
 
