@@ -5,7 +5,7 @@ Email：luojin@buaa.edu.cn \
 地址：北京市海淀区学院路37号第一馆223
 
 #### 科研简介：
-- 研究方向：围绕<strong>基于先进存储的存算一体</strong>主线，重点开展<strong>基于新型非易失器件的存算一体芯片</strong>与<strong>面向大模型的三维存算一体架构研究</strong>。
+- 研究方向：围绕<strong>基于先进存储的存算一体</strong>主线，重点开展<strong>基于新型非易失器件的存算一体芯片</strong>与<strong>面向大模型的三维存算一体架构研究</strong>。（关键词：氧化铪基铁电存储器，存算一体，大模型）
 - 代表性成果：已发表论文30余篇。作为第一作者发表领域顶会<strong>IEEE IEDM 5篇</strong>、<strong>IEEE VLSI 1篇</strong>。曾获IEEE IEDM 2021 Brain Best Paper Nomination、IEEE EDTM 2023 Best Student Paper Award、IEEE EDL Editors’ Pick
 - 学术服务：担任IEEE EDL、IEEE TED、SCI CHINA INFORM SCI等期刊审稿人
 - 谷歌学术：https://scholar.google.com/citations?hl=zh-CN&user=pXAf0agAAAAJ 
