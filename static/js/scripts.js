@@ -2,7 +2,96 @@
 
 const content_dir = 'contents/'
 const config_file = 'config.yml'
-const section_names = ['home', 'publications', 'awards']
+const section_names = ['home', 'selected-works', 'news', 'publications', 'awards']
+
+const translations = {
+    zh: {
+        'nav-home': '主页',
+        'nav-selected-works': '代表性工作',
+        'nav-news': '动态',
+        'nav-publications': '论文发表',
+        'nav-awards': '获奖',
+        'section-selected-works': '代表性工作',
+        'section-news': '动态',
+        'section-publications': '论文发表',
+        'section-awards': '获奖',
+        'loading': '内容加载中...'
+    },
+    en: {
+        'nav-home': 'Home',
+        'nav-selected-works': 'Selected Works',
+        'nav-news': 'News',
+        'nav-publications': 'Publications',
+        'nav-awards': 'Awards',
+        'section-selected-works': 'Selected Works',
+        'section-news': 'News',
+        'section-publications': 'Publications',
+        'section-awards': 'Awards',
+        'loading': 'Loading...'
+    }
+}
+
+function currentLanguage() {
+    const params = new URLSearchParams(window.location.search)
+    const queryLang = params.get('lang')
+    const storedLang = localStorage.getItem('homepage-lang')
+    return ['zh', 'en'].includes(queryLang) ? queryLang : (['zh', 'en'].includes(storedLang) ? storedLang : 'zh')
+}
+
+function updateStaticText(lang) {
+    document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en'
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n')
+        if (translations[lang][key]) {
+            el.innerHTML = translations[lang][key]
+        }
+    })
+    document.querySelectorAll('.lang-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.lang === lang)
+    })
+}
+
+function loadConfig(lang) {
+    return fetch(content_dir + lang + '/' + config_file)
+        .then(response => response.text())
+        .then(text => {
+            const yml = jsyaml.load(text)
+            Object.keys(yml).forEach(key => {
+                try {
+                    document.getElementById(key).innerHTML = yml[key]
+                } catch {
+                    console.log("Unknown id and value: " + key + "," + yml[key].toString())
+                }
+            })
+        })
+}
+
+function loadSections(lang) {
+    marked.use({ mangle: false, headerIds: false })
+    return Promise.all(section_names.map(name => {
+        const target = document.getElementById(name + '-md')
+        if (target) {
+            target.innerHTML = '<p class="loading-text">' + translations[lang].loading + '</p>'
+        }
+        return fetch(content_dir + lang + '/' + name + '.md')
+            .then(response => response.text())
+            .then(markdown => {
+                const html = marked.parse(markdown)
+                document.getElementById(name + '-md').innerHTML = html
+            })
+    })).then(() => {
+        if (window.MathJax) {
+            MathJax.typeset()
+        }
+    })
+}
+
+function setLanguage(lang) {
+    localStorage.setItem('homepage-lang', lang)
+    updateStaticText(lang)
+    loadConfig(lang).catch(error => console.log(error))
+    loadSections(lang).catch(error => console.log(error))
+}
 
 
 window.addEventListener('DOMContentLoaded', event => {
@@ -30,36 +119,12 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 
-    // Yaml
-    fetch(content_dir + config_file)
-        .then(response => response.text())
-        .then(text => {
-            const yml = jsyaml.load(text);
-            Object.keys(yml).forEach(key => {
-                try {
-                    document.getElementById(key).innerHTML = yml[key];
-                } catch {
-                    console.log("Unknown id and value: " + key + "," + yml[key].toString())
-                }
-
-            })
+    document.querySelectorAll('.lang-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            setLanguage(btn.dataset.lang)
         })
-        .catch(error => console.log(error));
-
-
-    // Marked
-    marked.use({ mangle: false, headerIds: false })
-    section_names.forEach((name, idx) => {
-        fetch(content_dir + name + '.md')
-            .then(response => response.text())
-            .then(markdown => {
-                const html = marked.parse(markdown);
-                document.getElementById(name + '-md').innerHTML = html;
-            }).then(() => {
-                // MathJax
-                MathJax.typeset();
-            })
-            .catch(error => console.log(error));
     })
+
+    setLanguage(currentLanguage())
 
 }); 

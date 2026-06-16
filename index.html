@@ -91,13 +91,25 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#page-top">HOME</a>
+                        <a class="nav-link me-lg-3" href="#page-top" data-i18n="nav-home">主页</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#awards">AWARDS</a>
+                        <a class="nav-link me-lg-3" href="#selected-works" data-i18n="nav-selected-works">代表性工作</a>
                     </li>
                     <li class="nav-item">
-						<a class="nav-link me-lg-3" href="#publications">PUBLICATIONS</a>
+                        <a class="nav-link me-lg-3" href="#news" data-i18n="nav-news">动态</a>
+                    </li>
+                    <li class="nav-item">
+						<a class="nav-link me-lg-3" href="#publications" data-i18n="nav-publications">论文发表</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link me-lg-3" href="#awards" data-i18n="nav-awards">获奖</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="language-switch" aria-label="Language switch">
+                            <button type="button" class="lang-btn active" data-lang="zh">中文</button>
+                            <button type="button" class="lang-btn" data-lang="en">EN</button>
+                        </div>
                     </li>
 
                 </ul>
@@ -106,7 +118,7 @@
     </nav>
 
     <!-- Top Section -->
-    <section class="top-section" style="background-image: url('static/assets/img/background.jpg');">
+    <section class="top-section" style="background-image: url('static/assets/img/background-hires.jpg');">
         <div class="top-section-content">
             <div class="container px-5">
                 <h2 id="top-section-bg-text" class="text-white display-3 lh-1 font-alt"></h2>
@@ -135,29 +147,53 @@
     </section>
     <!-- Home -->
 	
-    <!-- Awards -->
-    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="awards">
+    <!-- Selected Works -->
+    <section class="section-soft mt5 md5" id="selected-works">
         <div class="container px-5">
             <header>
-                <h2 id="awards-subtitle"><i class="bi bi-award-fill"></i>AWARDS </h2>
+                <h2 id="selected-works-subtitle"><i class="bi bi-cpu-fill"></i><span data-i18n="section-selected-works">代表性工作</span></h2>
             </header>
-            <div class="main-body" id="awards-md"></div>
+            <div class="main-body" id="selected-works-md"></div>
 
         </div>
     </section>
-    <!-- Awards -->
-	
+    <!-- Selected Works -->
+
+    <!-- News -->
+    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="news">
+        <div class="container px-5">
+            <header>
+                <h2 id="news-subtitle"><i class="bi bi-broadcast-pin"></i><span data-i18n="section-news">动态</span></h2>
+            </header>
+            <div class="main-body" id="news-md"></div>
+
+        </div>
+    </section>
+    <!-- News -->
+
     <!-- Publications -->
     <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="publications">
         <div class="container px-5">
             <header>
-                <h2 id="publications-subtitle"><i class="bi bi-file-text-fill"></i>&nbsp;PUBLICATIONS</h2>
+                <h2 id="publications-subtitle"><i class="bi bi-file-text-fill"></i><span data-i18n="section-publications">论文发表</span></h2>
             </header>
             <div class="main-body" id="publications-md"></div>
 
         </div>
     </section>
     <!-- Publications  -->
+
+    <!-- Awards -->
+    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="awards">
+        <div class="container px-5">
+            <header>
+                <h2 id="awards-subtitle"><i class="bi bi-award-fill"></i><span data-i18n="section-awards">获奖</span></h2>
+            </header>
+            <div class="main-body" id="awards-md"></div>
+
+        </div>
+    </section>
+    <!-- Awards -->
 
 
     <!-- Footer-->
