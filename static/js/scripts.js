@@ -7,26 +7,28 @@ const section_names = ['home', 'selected-works', 'news', 'publications', 'awards
 const translations = {
     zh: {
         'nav-home': '主页',
-        'nav-selected-works': '代表性工作',
+        'nav-selected-works': '代表工作',
         'nav-news': '动态',
-        'nav-publications': '论文发表',
+        'nav-publications': '学术论文',
         'nav-awards': '获奖',
-        'section-selected-works': '代表性工作',
+        'section-selected-works': '代表工作',
         'section-news': '动态',
-        'section-publications': '论文发表',
+        'section-publications': '学术论文',
         'section-awards': '获奖',
+        'scholar-link': '谷歌学术',
         'loading': '内容加载中...'
     },
     en: {
         'nav-home': 'Home',
         'nav-selected-works': 'Selected Works',
         'nav-news': 'News',
-        'nav-publications': 'Publications',
+        'nav-publications': 'Academic Papers',
         'nav-awards': 'Awards',
         'section-selected-works': 'Selected Works',
         'section-news': 'News',
-        'section-publications': 'Publications',
+        'section-publications': 'Academic Papers',
         'section-awards': 'Awards',
+        'scholar-link': 'Google Scholar',
         'loading': 'Loading...'
     }
 }

@@ -2,13 +2,14 @@
 
 
 :root{
-    --h-title-color:#123d5a;
-    --h-accent-color:#0b8f8a;
-    --h-warm-color:#b56a17;
-    --h-ink:#17212b;
-    --h-muted:#5e6b76;
-    --h-line:#d9e4ea;
-    --h-soft:#f4f8fa;
+    --h-title-color:#003b7a;
+    --h-accent-color:#0066ff;
+    --h-sky-color:#4aa3ff;
+    --h-warm-color:#1f7ed8;
+    --h-ink:#002b5c;
+    --h-muted:#4a6380;
+    --h-line:#cfe3ff;
+    --h-soft:#eef6ff;
     --h-card:#ffffff;
 }
 
@@ -30,10 +31,14 @@ body {
 
 .top-section {
     position: relative;
-    padding: 9rem 0;
-    background-position: center;
-    background-size: cover;
-    height: 27rem;
+    padding: 0;
+    margin-top: 4.25rem;
+    background-position: center top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    height: min(702px, calc(100vw * 0.365625));
+    min-height: 210px;
 }
 
 .top-section h2 {
@@ -54,7 +59,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, rgba(8, 28, 42, 0.76), rgba(8, 28, 42, 0.42));
+    background: transparent;
 }
 
 section header h2{
@@ -88,13 +93,13 @@ section .main-body h4 {
 }
 
 section .main-body a {
-    color: #0b6880;
+    color: #0056d6;
     text-decoration-thickness: 1px;
     text-underline-offset: 3px;
 }
 
 section .main-body strong {
-    color: #122c42;
+    color: #002b5c;
 }
 
 
@@ -107,7 +112,7 @@ section .main-body strong {
 }
 
 .section-soft {
-    background: linear-gradient(180deg, #f8fbfc 0%, #eef6f7 100%) !important;
+    background: linear-gradient(180deg, #f7fbff 0%, #eaf4ff 100%) !important;
 }
 
 
@@ -216,7 +221,7 @@ section .main-body strong {
     overflow: hidden;
     border: 1px solid #cddce3;
     border-radius: 6px;
-    background: #eef3f5;
+    background: #eef6ff;
 }
 
 .work-preview object {
@@ -233,6 +238,7 @@ section .main-body strong {
 
 .work-content h3 {
     margin: 0.45rem 0 0.75rem;
+    font-family: Arial, sans-serif;
     font-size: 1.18rem;
     line-height: 1.5;
 }
@@ -260,8 +266,8 @@ section .main-body strong {
 }
 
 .work-meta span {
-    background: #e7f3f3;
-    color: #075f61;
+    background: #e7f0ff;
+    color: #0040a8;
     font-weight: 700;
 }
 
@@ -273,37 +279,46 @@ section .main-body strong {
 }
 
 .tag-row span {
-    background: #f6efe6;
-    color: #835114;
+    background: #f0f7ff;
+    color: #1c5fa8;
 }
 
 .paper-actions {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.55rem;
-    margin-top: 0.75rem;
+    gap: 0.35rem;
+    margin-top: 0.65rem;
     margin-bottom: 0;
 }
 
 .paper-link,
 .pdf-badge,
+.slide-badge,
 .scholar-button {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    min-height: 1.55rem;
-    padding: 0.18rem 0.5rem;
-    border-radius: 4px;
+    min-height: 1.15rem;
+    padding: 0.05rem 0.38rem;
+    border-radius: 3px;
     background: var(--h-title-color);
     color: #ffffff !important;
-    font-size: 0.76rem;
+    font-size: 0.7rem;
     font-weight: 700;
     text-decoration: none !important;
 }
 
 .paper-link.secondary,
-.pdf-badge {
-    background: var(--h-accent-color);
+.pdf-badge,
+.slide-badge {
+    background: #2f8cff;
+}
+
+.paper-link.outline,
+.slide-badge {
+    background: #eaf4ff;
+    color: #0040a8 !important;
+    border: 1px solid #9fc9ff;
 }
 
 .scholar-actions {
@@ -311,10 +326,26 @@ section .main-body strong {
 }
 
 .scholar-button {
-    min-height: 1.8rem;
-    padding: 0.26rem 0.7rem;
-    font-size: 0.86rem;
-    background: #2d5f85;
+    min-height: 1.55rem;
+    padding: 0.16rem 0.62rem;
+    font-size: 0.78rem;
+    background: var(--h-accent-color);
+}
+
+.heading-scholar {
+    display: inline-flex;
+    align-items: center;
+    min-height: 1.45rem;
+    margin-left: 0.75rem;
+    padding: 0.12rem 0.55rem;
+    border-radius: 3px;
+    background: var(--h-accent-color);
+    color: #ffffff !important;
+    font-size: 0.78rem;
+    font-weight: 700;
+    line-height: 1;
+    text-decoration: none !important;
+    vertical-align: middle;
 }
 
 .publication-list {
@@ -383,8 +414,9 @@ section .main-body strong {
 
 @media screen and (max-width: 640px) {
     .top-section {
-        height: 22rem;
-        padding: 7.5rem 0;
+        height: calc(100vw * 0.365625);
+        min-height: 150px;
+        padding: 0;
     }
 
     section header h2 {
