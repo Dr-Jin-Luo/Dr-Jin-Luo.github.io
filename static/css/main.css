@@ -281,21 +281,22 @@ section .main-body strong {
     display: flex;
     flex-wrap: wrap;
     gap: 0.55rem;
-    margin-top: 0.9rem;
+    margin-top: 0.75rem;
     margin-bottom: 0;
 }
 
 .paper-link,
-.pdf-badge {
+.pdf-badge,
+.scholar-button {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    min-height: 2rem;
-    padding: 0.32rem 0.72rem;
-    border-radius: 6px;
+    min-height: 1.55rem;
+    padding: 0.18rem 0.5rem;
+    border-radius: 4px;
     background: var(--h-title-color);
     color: #ffffff !important;
-    font-size: 0.86rem;
+    font-size: 0.76rem;
     font-weight: 700;
     text-decoration: none !important;
 }
@@ -303,6 +304,17 @@ section .main-body strong {
 .paper-link.secondary,
 .pdf-badge {
     background: var(--h-accent-color);
+}
+
+.scholar-actions {
+    margin: -0.2rem 0 1.2rem;
+}
+
+.scholar-button {
+    min-height: 1.8rem;
+    padding: 0.26rem 0.7rem;
+    font-size: 0.86rem;
+    background: #2d5f85;
 }
 
 .publication-list {
