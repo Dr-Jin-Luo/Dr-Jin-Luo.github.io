@@ -2,7 +2,7 @@
 
 const content_dir = 'contents/'
 const config_file = 'config.yml'
-const section_names = ['home', 'selected-works', 'news', 'publications', 'awards']
+const section_names = ['profile', 'home', 'selected-works', 'news', 'publications', 'awards']
 
 const translations = {
     zh: {
